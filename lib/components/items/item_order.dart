@@ -28,7 +28,7 @@ class item_order extends StatelessWidget {
           children: [
             Align(
               alignment: AlignmentDirectional(-0.85, -0.25),
-              child: Image.asset(
+              child: Image.network(
                 image,
                 // assets/images/istockphoto-1072626580-612x612.jpg
                 width: 108.3,
