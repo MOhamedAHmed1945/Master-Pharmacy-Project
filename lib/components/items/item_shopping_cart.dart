@@ -43,7 +43,7 @@ class ItemShoppingCart extends StatelessWidget {
             Container(
               height: 112, //90
               padding: EdgeInsets.only(left: 8),
-              child: Image.asset(
+              child: Image.network(
                 image,
                 width: 110,
               ),

@@ -83,7 +83,7 @@ class _ProductsScreenDetailsState extends State<ProductsScreenDetails> {
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   Center(
-                      child: Image.asset(
+                      child: Image.network(
                         //'assets/images/panadol.jpg',
                         widget.detailsProduct.productImage,
                         height: 150, // change

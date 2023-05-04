@@ -1,4 +1,5 @@
 import 'package:flutter/foundation.dart';
+import '../helper/api_helper.dart';
 import 'data_product_model.dart';
 
 class ModelProvider with ChangeNotifier {
@@ -9,7 +10,7 @@ class ModelProvider with ChangeNotifier {
   add(DataProductModel product) {
     selectedProduct.add(product);
 
-    productPrice += product.productPrice.round();
+    //productPrice += product.productPrice.round();
 
     notifyListeners();
   }
@@ -17,7 +18,7 @@ class ModelProvider with ChangeNotifier {
   remove(DataProductModel product) {
     selectedProduct.remove(product);
 
-    productPrice -= product.productPrice.round();
+    //productPrice -= product.productPrice.round();
 
     notifyListeners();
   }
@@ -44,4 +45,5 @@ class ModelProvider with ChangeNotifier {
     productPrice = 0;
     notifyListeners();
   }
+  
 }
