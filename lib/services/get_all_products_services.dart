@@ -1,4 +1,3 @@
-
 import '../Helper/api_helper.dart';
 import '../models/data_product_model.dart';
 
@@ -13,4 +12,3 @@ class AllProductsServices {
     return productsList;
   }
 }
-

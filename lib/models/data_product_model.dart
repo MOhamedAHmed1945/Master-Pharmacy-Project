@@ -1,5 +1,5 @@
 class DataProductModel {
-  final dynamic productId;
+  dynamic productId;
   String productImage;
   dynamic productPrice;
   String productDescription;
@@ -7,11 +7,11 @@ class DataProductModel {
   String productState;
 
   DataProductModel({
-    this.productId= 0,
+    this.productId = 0,
     this.productImage = 'assets/images/medicine.png',
     this.productPrice = 00,
     this.productName = 'Name Product',
-    this.productState = 'Unknown',
+    this.productState = 'state av',
     this.productDescription = "There are many fake or unproven medical products and"
         " methods that claim to diagnose, prevent or cure COVID-19.[1] "
         "Fake medicines sold for COVID-19 may not contain the ingredients"
