@@ -5,7 +5,7 @@ import 'data_product_model.dart';
 class ModelProvider with ChangeNotifier {
   List selectedProduct = [];
   List selectedProductOrders = [];
-  List productsList = [];
+  //List productsList = [];
    dynamic productPrice = 0;
 
   add(DataProductModel product) {
@@ -48,6 +48,8 @@ class ModelProvider with ChangeNotifier {
     notifyListeners();
   }
 
+  
+/*
   Future<List<DataProductModel>> getAllProducts() async {
     List<dynamic> data =
         await ApiHelper().get(url: 'https://fakestoreapi.com/products');
@@ -57,6 +59,7 @@ class ModelProvider with ChangeNotifier {
     }
     return productsList;
   }
+  */
 }
 
 /*
